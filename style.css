@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: TwitchytTV;
+  src: url(Twitchy.TV.otf);
+}
 
 * {
   margin: 0;
@@ -40,13 +44,13 @@ body {
   justify-content: center;
 }
 
-.imagem-foto > a {
+.imagem-foto > img {
   transition-duration: 0.3s;
 }
 
-.imagem-foto > a:hover,
-.imagem-foto > a:focus,
-.imagem-foto > a:active {
+.imagem-foto > img:hover,
+.imagem-foto > img:focus,
+.imagem-foto > img:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
@@ -55,11 +59,11 @@ body {
   width: 0px;
 }
 
-.imagem-foto > a > img {
+.imagem-foto > img {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
-  height: 160px;
+  margin-top: 30px;
+  height: 110px;
 }
 
 h1 {
@@ -70,8 +74,8 @@ h1 {
   display: flex;
   font-size: 30px;
   justify-content: center;
-  margin: 15px;
   cursor: default;
+  margin-top: 30px;
 }
 
 #bftc {
@@ -84,7 +88,7 @@ h1 {
   font-family: 'Comfortaa', monospace;
   font-weight: 600;
   cursor: default;
-  text-shadow: 1px 1px 1px #ff0080;
+  text-shadow: 1px 1px 1px #6f00ff;
   color: #ffffff;
   font-size: 14px;
   display: flex;
@@ -98,7 +102,7 @@ h1 {
   font-family: 'Comfortaa', monospace;
   font-weight: 600;
   cursor: default;
-  text-shadow: 1px 1px 1px #ff0080;
+  text-shadow: 1px 1px 1px #6f00ff;
   color: #ffffff;
   font-size: 14px;
   display: flex;
@@ -213,17 +217,17 @@ span {
 }
 
 #redes-sociais > ul > div > li > a > img:hover {
-  border: 3px solid rgba(216, 0, 36, 0.9);
+  border: 3px solid #6f00ff;
 }
 
 #redes-sociais2 > ul > div > li > a > img:hover {
-  border: 3px solid rgba(216, 0, 36, 0.9);
+  border: 3px solid #6f00ff;
 }
 
 #redes-sociais3 > ul > div > li > a > img:hover {
-  border: 3px solid rgba(216, 0, 36, 0.9);
+  border: 3px solid #6f00ff;
 }
 
 #redes-sociais4 > ul > div > li > a > img:hover {
-  border: 3px solid rgba(216, 0, 36, 0.9);
+  border: 3px solid #6f00ff;
 }
